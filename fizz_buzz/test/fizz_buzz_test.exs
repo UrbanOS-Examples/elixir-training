@@ -12,4 +12,10 @@ defmodule FizzBuzzTest do
       assert FizzBuzz.play(1) == 1
     end
   end
+
+  describe "fizz" do
+    test "echoes fizz for 3" do
+      assert FizzBuzz.play(3) == "fizz"
+    end
+  end
 end
