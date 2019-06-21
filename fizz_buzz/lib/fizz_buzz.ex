@@ -12,6 +12,10 @@ defmodule FizzBuzz do
       2
 
   """
+  def play(number) when rem(number, 5) == 0 and rem(number, 3) == 0 do
+    "fizzbuzz"
+  end
+
   def play(number) when rem(number, 5) == 0, do: "buzz"
 
   def play(number) when rem(number, 3) == 0, do: "fizz"
