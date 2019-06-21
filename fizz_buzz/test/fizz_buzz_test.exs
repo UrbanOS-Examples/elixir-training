@@ -27,5 +27,15 @@ defmodule FizzBuzzTest do
     test "echoes buzz for 5" do
       assert FizzBuzz.play(5) == "buzz"
     end
+
+    test "echoes buzz for multiple of 5" do
+      assert FizzBuzz.play(10) == "buzz"
+    end
+  end
+
+  describe "fizzbuzz" do
+    test "echoes fizzbuzz for 15" do
+      assert FizzBuzz.play(15) == "fizzbuzz"
+    end
   end
 end
