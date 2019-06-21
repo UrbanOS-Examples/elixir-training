@@ -12,5 +12,7 @@ defmodule FizzBuzz do
       2
 
   """
+  def play(3), do: "fizz"
+
   def play(number), do: number
 end
