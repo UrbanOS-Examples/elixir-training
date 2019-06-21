@@ -7,9 +7,9 @@ defmodule Recursion do
   Does performs operation on a collection,
   reducing the collection elements as it goes.
   """
-  def reduce(0, acc), do: acc
-    
-  def reduce(arg, acc) do
-    reduce(arg - 1, arg * acc)
+  def reduce([], acc, _func), do: acc
+
+  def reduce([head | tail], acc, func) do
+    reduce(tail, func.(head, acc), func)
   end
 end
