@@ -10,6 +10,6 @@ defmodule Recursion do
   def reduce(0, acc), do: acc
     
   def reduce(arg, acc) do
-    arg * reduce(arg - 1, acc)
+    reduce(arg - 1, arg * acc)
   end
 end
