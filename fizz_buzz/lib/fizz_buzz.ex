@@ -8,11 +8,11 @@ defmodule FizzBuzz do
 
   ## Examples
 
-      iex> FizzBuzz.hello()
-      :world
+      iex> FizzBuzz.play(2)
+      2
 
   """
-  def hello do
-    :world
+  def play(_numbar) do
+    :ok
   end
 end
