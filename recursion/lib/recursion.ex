@@ -22,7 +22,7 @@ defmodule Recursion do
   def count(enum) do
     counter = fn _num, acc -> 1 + acc end
 
-    reduce(enum, 0, &counter.(&1, &2))
+    reduce(enum, 0, counter)
   end
 
   @doc """
@@ -32,5 +32,15 @@ defmodule Recursion do
   """
   def count_anon(enum) do
     reduce(enum, 0, fn _num, acc -> 1 + acc end)
+  end
+
+  @doc """
+
+  """
+  def map(enum, func) do
+    reduce(enum, [], fn item, acc ->
+      [func.(item) | acc]
+    end)
+    |> Enum.reverse() # This is a cheat to avoid implementing sort/stay on task.
   end
 end
