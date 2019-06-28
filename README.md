@@ -7,7 +7,7 @@ Training materials for introducing Elixir and functional programming
 #### Elixir
 Follow the link to download the installer and follow the prompts: https://repo.hex.pm/elixir-websetup.exe
 #### Docker and Compose
-Download the package installer and follow the prompts: https://download.docker.com/win/stable/Docker%20fo%20Windows%20Installer.exe
+Download the package installer and follow the prompts: https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
 
 #### Git
 Download the installer and follow the prompts: https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-32-bit.exe
