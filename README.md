@@ -1,6 +1,10 @@
 # Smart Columbus Elixir Training
 Training materials for introducing Elixir and functional programming
 
+## Slide Deck
+
+[Elixir and Operating System Slides](https://docs.google.com/presentation/d/1_aNiaMWIoStVCkQ3P7_2HJWkg8FBRkEqTY_1fvyC4so/edit#slide=id.g5c1a00c65f_0_6)
+
 ## Install instructions
 
 ### Windows
